@@ -26,7 +26,7 @@ npm install
 ## App.json
 ```json
 {
-  "name": "${nameOfYourAppHere}"
+  "name": "${nameOfYourAppHere}",
   "displayName": "${displayNameOfYourAppHere}"
 }
 ```
@@ -44,7 +44,9 @@ react-native upgrade
 react-native link
 
 # Fix requirements
+```bash
 $EDITOR android/app/build.gradle
+```
 
 ```gradle
 defaultConfig {

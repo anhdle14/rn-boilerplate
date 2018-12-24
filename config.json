@@ -1,0 +1,18 @@
+{
+  "theme": {
+    "light": {
+      "color1": "#05668D",
+      "color2": "#028090",
+      "color3": "#00A896",
+      "color4": "#02C39A",
+      "color5": "#F0F3BD"
+    },
+    "dark": {
+      "color1": "#247BA0",
+      "color2": "#70C1B3",
+      "color3": "#B2DBBF",
+      "color4": "#F3FFBD",
+      "color5": "#FF1654"
+    }
+  }
+}

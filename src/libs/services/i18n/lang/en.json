@@ -1,0 +1,11 @@
+{
+  "dashboard": {
+    "title": "Welcome Message",
+    "introduction": "This text comes from i18next and is provided in english."
+  },
+  "common": {
+    "actions": {
+      "toggleToEnglish": "English"
+    }
+  }
+}

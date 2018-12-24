@@ -20,6 +20,41 @@ git clone http://github.com/anhdle14/rn-boilerplate.git
 cd rn-boilerplate
 npm install -g react-native-cli react-devtools
 npm install
+```
+
+# Edit app.json + package.json
+## App.json
+```json
+{
+  "name": "${nameOfYourAppHere}"
+  "displayName": "${displayNameOfYourAppHere}"
+}
+```
+
+## package.json
+```json
+{
+  "name": "${nameOfYourAppHere}",
+}
+```
+
+# Creating iOS + Android
+react-native eject
+react-native upgrade
+react-native link
+
+# Fix requirements
+$EDITOR android/app/build.gradle
+
+```gradle
+defaultConfig {
+  minSdkVersion 18
+  ...
+  }
+```
+
+## Start
+```bash
 npm run native:start # For Packager & Metro Bundler
 npm run native:ios # For MacOS, iPhone Simulator
 npm run native:android # For Android Simulator

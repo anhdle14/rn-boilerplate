@@ -16,8 +16,8 @@
 ### Quick Start
 
 ```bash
-git clone http://github.com/anhdle14/react-native-typescript-boilerplate.git rn-typescript
-cd rn-typescript
+git clone http://github.com/anhdle14/rn-boilerplate.git
+cd rn-boilerplate
 npm install -g react-native-cli react-devtools
 npm install
 npm run native:start # For Packager & Metro Bundler
